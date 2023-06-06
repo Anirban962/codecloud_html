@@ -1,0 +1,344 @@
+@media(max-width: 991px){
+    .hdr nav .menu-wrap{
+        display: block;
+        height: 100vh;
+        width: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        transition: all .3s ease;
+
+    }
+    .hdr .header_outer .header_inner nav ul{
+        display: block;
+        padding: 80px 10px;
+    }
+
+    .hdr .header_outer .header_inner nav ul li::after{
+        display: none;
+    }
+
+
+    .hdr nav .menu-wrap ul li{
+        
+        padding: 15px 5px;
+    }
+.hdr nav .nav-button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    margin-left: 30px;
+    color: #fff;
+
+}
+.hdr nav .menu-wrap .closebtn{
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-size: 45px;
+    color: #000;
+    margin: 0;
+}
+
+
+.banner .banner_first_txt {
+    margin-top: 14%;
+}
+
+.banner .banner_first_txt h4 {
+    /* width: 620px; */
+    height: 28px;
+    max-width: 100%;
+    font-size: 28px;
+ 
+    
+}
+
+.banner .banner_title h1 {
+    width: 500px;
+    height: 120px;
+    max-width: 100%;
+    font-size: 62px;
+    line-height: 68px;
+}
+
+.banner .banner_desc p {
+    width: 400px;
+    height: 61px;
+    font-size: 17px;
+    
+}
+.banner .banner_product_wrapper img {
+    border-radius: 50%;
+    width: 100px;
+}
+.banner .banner_product_wrapper p {
+    width: 133px;
+    height: 43px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 15px;
+    font-family: "Barlow Condensed";
+    text-align: center;
+    margin-left: -15px;
+}
+
+.timeline_sec .timeline_sec_title h4{
+      margin: 12px 0 0 0;
+}
+
+
+.timeline_sec .timeline_sec_title h4, p{
+    font-size: 30px;
+}
+.timeline_sec title{
+    margin: 20px 0 0 0;
+}
+.timeline_sec .timeline_sec_title p {
+    
+    padding: 10px;
+}
+
+.timeline_sec .timeline_sec_title h4, p {
+    font-size: 22px;
+}
+
+.timeline_sec .timeline_sec_title p {
+    padding: 7px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+
+    .banner .banner_first_txt h4 {
+        height: 20px;
+        max-width: 100%;
+        font-size: 23px;
+
+    }
+
+.banner .banner_first_txt {
+    margin-top: 18%;
+}
+
+.banner .banner_title h1 {
+    width: 380px;
+    height: 120px;
+    max-width: 100%;
+    font-size: 50px;
+    line-height: 54px;
+}
+
+.banner .banner_desc {
+    margin-top: 10px;
+}
+
+.banner .banner_usa_flag_info h5 {
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Barlow";
+    filter: drop-shadow(0.5px 0.866px 0.5px rgba(0,0,0,0.4));
+}
+
+
+.timeline_sec::before {
+    content: '';
+    background-image: url(../img/banner_side_img.png);
+    max-width: 100%;
+    width: 235px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: -414px;
+    z-index: 50;
+}
+
+
+.banner .banner_product_wrapper img {
+    border-radius: 50%;
+    width: 100px;
+}
+.banner .banner_product_wrapper .item_one {
+    margin: 0px;
+}
+.banner .banner_product_wrapper .item_two {
+    margin: 0px;
+}
+
+.banner .banner_product_wrapper .item_three {
+    margin: 0px;
+}
+}
+
+
+@media(max-width: 575px){
+.banner .banner_title h1 {
+    width: 300px;
+    height: 120px;
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+
+.banner .banner_desc {
+    margin-top: 0px;
+}
+
+.banner .banner_first_txt {
+    margin-top: 22%;
+}
+
+
+
+
+}
+
+@media(max-width: 480px){
+    .banner .banner_first_txt h4 {
+        height: 20px;
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .banner .banner_title h1 {
+        width: 272px;
+        /* height: 120px; */
+        max-width: 100%;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+
+    .banner .banner_desc p {
+        width: 400px;
+        height: 58px;
+        font-size: 15px;
+    }
+
+
+    .banner .banner_usa_flag_info h5 {
+        width: 330px;
+        height: 50px;
+        font-size: 17px;
+        margin-left: 68px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Barlow";
+        filter: drop-shadow(0.5px 0.866px 0.5px rgba(0,0,0,0.4));
+    }
+
+
+}
+
+@media(max-width: 420px){
+
+    .banner .banner_desc p {
+        /* width: 400px; */
+        height: 58px;
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+
+    .banner .banner_usa_flag_info h5 {
+        /* width: 330px; */
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0px;
+        max-width: 100%;
+   
+    }
+
+    .banner .banner_usa_flag_info {
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .banner .banner_usa_flag_info h5 {
+        /* width: 330px; */
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0px;
+        max-width: 100%;
+        /* margin-top: 34px; */
+        transform: translateY(33px);
+    }
+
+    .banner .banner_usa_flag_info::before {
+       
+        position: absolute;
+        top: -18px;
+        left: 0;
+ 
+    }
+    .banner .banner_first_txt {
+        margin-top: 30%;
+    }
+    .banner .banner_first_txt h4 {
+        /* height: 20px; */
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+
+    .banner .banner_title h1 {
+        width: 230px;
+        /* height: 120px; */
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .timeline_sec::before {
+        content: '';
+        background-image: url(../img/banner_side_img.png);
+        max-width: 100%;
+        width: 184px;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: -300px;
+        z-index: 50;
+    }
+    .banner {
+        background-image: url(../img/banner\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 100px;
+        position: relative;
+        z-index: 10;
+    }
+
+
+
+}
